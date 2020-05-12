@@ -1,3 +1,5 @@
+document.querySelectorAll("img")[2].addEventListener("click",diceGame)
+
 function diceGame(){
   var randomNumber1 = Math.random();
   var randomNumber2 = Math.random();
